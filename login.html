@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sign up page for our service">
+    <!-- Icon -->
+    <link rel="shortcut icon" href="assets/images/login_24dp_8C1AF6_FILL0_wght400_GRAD0_opsz24.svg" type="image/x-icon">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>LogIn</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>LogIn</h1>
+        <div id="form-error" class="error-message" role="alert" aria-live="assertive"></div>
+        <form id="form">
+            <div class="input-group">
+                <label for="email-input">
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                    <span class="sr-only">Email Address</span>
+                </label>
+                <input type="email" id="email-input" required placeholder="Email Address" aria-required="true">
+            </div>
+            <div class="input-group">
+                <label for="password-input">
+                    <i class="fa-solid fa-lock" aria-hidden="true"></i>
+                    <span class="sr-only">Password</span>
+                </label>
+                <input type="password" id="password-input" required placeholder="Password" aria-required="true">
+                <button type="button" class="toggle-password" aria-label="Show password">
+                    <i class="fa-solid fa-eye" aria-hidden="true"></i>
+                </button>
+            </div>
+            <button type="submit">SignIp</button>
+        </form>
+        <p>New here? <a href="index.html">SignUp</a></p>
+    </div>
+    <!-- Main Script -->
+    <script src="assets/Js/script.js"></script>
+</body>
+
+</html>
