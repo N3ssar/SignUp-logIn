@@ -22,7 +22,7 @@ body {
     color: var(--text-color);
     text-align: center;
     min-height: 100dvh;
-    background: url('/assets/images/bg.jpg');
+    background: url('../images/bg.jpg');
     background-size: cover;
     background-position: right;
     overflow: hidden;
